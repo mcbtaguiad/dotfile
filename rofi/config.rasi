@@ -1,0 +1,17 @@
+configuration {
+  display-drun: "Applications:";
+  display-run: "Command:";
+  display-window: "Windows:";
+  combi-modi: "window,run,drun";
+  show-icons: true;
+  icon-theme: "Papirus";
+  terminal: "alacritty";
+  ssh-client: "ssh";
+  ssh-command: "{terminal} -e {ssh-client} {host}";
+  run-command: "{cmd}";
+  run-shell-command: "{terminal} -e {cmd}";
+  font: "Lexis 10";
+}
+
+//@theme "/home/mtaguiad/.local/share/rofi/themes/tags-dark.rasi"
+@theme "/home/mtaguiad/.local/share/rofi/themes/tags-dark.rasi"

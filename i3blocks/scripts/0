@@ -1,0 +1,88 @@
+[32;2mflannel.1: connected (externally) to flannel.1[0m
+	"flannel.1"
+	vxlan, 2E:82:1C:F8:CB:CE, sw, mtu 1450
+	inet4 10.42.0.0/32
+	inet6 fe80::2c82:1cff:fef8:cbce/64
+	route6 fe80::/64 metric 256
+
+[31mwlp4s0: disconnected[0m
+	"Intel 6 AX210/AX211/AX411 160MHz"
+	1 connection available
+	wifi (iwlwifi), 04:CF:4B:E2:25:C5, hw, mtu 1500
+
+[31mp2p-dev-wlp4s0: disconnected[0m
+	"p2p-dev-wlp4s0"
+	wifi-p2p, hw
+
+[2menp0s31f6: unavailable[0m
+	"Intel I219-LM"
+	ethernet (e1000e), 8C:16:45:01:C4:BA, hw, mtu 1500
+
+[2mcni0: unmanaged[0m
+	"cni0"
+	bridge, E6:6F:1B:D5:75:E2, sw, mtu 1500
+
+[2mveth24fd881f: unmanaged[0m
+	"veth24fd881f"
+	ethernet (veth), 6E:AF:43:08:5D:67, sw, mtu 1450
+
+[2mveth3bffbc48: unmanaged[0m
+	"veth3bffbc48"
+	ethernet (veth), F2:7D:C9:59:FA:52, sw, mtu 1450
+
+[2mveth3e58e05d: unmanaged[0m
+	"veth3e58e05d"
+	ethernet (veth), FE:C5:60:82:55:4F, sw, mtu 1450
+
+[2mveth4ca574bf: unmanaged[0m
+	"veth4ca574bf"
+	ethernet (veth), E2:E2:F8:51:35:45, sw, mtu 1450
+
+[2mveth5cc97bb0: unmanaged[0m
+	"veth5cc97bb0"
+	ethernet (veth), 9E:70:9B:11:41:76, sw, mtu 1450
+
+[2mveth83bad98e: unmanaged[0m
+	"veth83bad98e"
+	ethernet (veth), 62:92:54:C9:D4:F8, sw, mtu 1450
+
+[2mveth9156f69a: unmanaged[0m
+	"veth9156f69a"
+	ethernet (veth), AE:E7:65:A4:12:10, sw, mtu 1450
+
+[2mvetha2ba1698: unmanaged[0m
+	"vetha2ba1698"
+	ethernet (veth), FA:98:EC:62:FA:EE, sw, mtu 1450
+
+[2mvethcfe299b0: unmanaged[0m
+	"vethcfe299b0"
+	ethernet (veth), AE:55:B2:0A:10:2C, sw, mtu 1450
+
+[2mvethde678293: unmanaged[0m
+	"vethde678293"
+	ethernet (veth), 1E:4E:38:19:49:45, sw, mtu 1450
+
+[2mvethe0130b73: unmanaged[0m
+	"vethe0130b73"
+	ethernet (veth), F6:2E:86:F2:F3:75, sw, mtu 1450
+
+[2mvethe363da9e: unmanaged[0m
+	"vethe363da9e"
+	ethernet (veth), 76:B8:7C:08:7C:63, sw, mtu 1450
+
+[2mvethefd81e5f: unmanaged[0m
+	"vethefd81e5f"
+	ethernet (veth), A2:CC:77:48:1A:81, sw, mtu 1450
+
+[2mvethf45fd144: unmanaged[0m
+	"vethf45fd144"
+	ethernet (veth), 3E:D3:0F:12:6B:63, sw, mtu 1450
+
+[2mlo: unmanaged[0m
+	"lo"
+	loopback (unknown), 00:00:00:00:00:00, sw, mtu 65536
+
+Use "nmcli device show" to get complete information about known devices and
+"nmcli connection show" to get an overview on active connection profiles.
+
+Consult nmcli(1) and nmcli-examples(7) manual pages for complete usage details.
